@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 Ngày Học Liên Tục Python Cho Revit - Anh Lập Trình</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css?v=20251223_140342" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css?v=20251223_140342">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Anh Lập Trình" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <span class="logo-text" style="display:none;">Anh Lập Trình</span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu">
+                <a href="#home">Trang chủ</a>
+                <a href="#about">Về Anh Lập Trình</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1 class="hero-title">30 Ngày Học Liên Tục Python Cho Revit</h1>
+            <p class="hero-subtitle">Đăng Ký Ngay</p>
+            <p class="hero-description">Không lý thuyết dài dòng, tràn lan Thành chuyên gia hoặc dừng sớm Học siêu nhanh với phương pháp hướng đối tượng</p>
+            <div class="hero-note">
+                <p class="hero-note-content">Anh em tay ngang có thể học và viết chương trình phục vụ công việc chỉ trong thời gian rất ngắn <strong>(trên dưới 1 tháng)</strong> dù chưa có bất kỳ một chút kiến thức gì về lập trình hay khoa học máy tính trước đó.</p>
+            </div>
+            <a href="#register" class="cta-button">Đăng Ký Ngay</a>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="main-content">
+        <div class="container">
+            <div class="intro-box">
+                <h2 class="intro-title">Giới Thiệu Khóa Học</h2>
+                <h3 class="intro-subtitle">HÀNH CHUYÊN GIA LẬP TRÌNH PYTHON REVIT API</h3>
+                
+                <div class="intro-content">
+                    <p>Lập trình Python trong Revit là việc viết ra các câu lệnh để máy tự động thực hiện những thao tác người dùng muốn trong Revit. Vì vậy, khi muốn thực hiện một chức năng nào đó, ta chỉ cần gọi câu lệnh đã được lập trình sẵn bằng Python thì Revit sẽ tự động thực hiện các thao tác đó một cách nhanh chóng và tiết kiệm rất nhiều thời gian so với việc thao tác thủ công bằng tay trên Revit.</p>
+                    
+                    <p>Phần lớn người đi làm vẫn sử dụng Revit để thực hiện các thao tác vẽ với những công cụ được Revit cung cấp sẵn một cách khá thủ công. Chính vì vậy, Python trong Revit API là một trong những công cụ cực kỳ hữu hiệu nâng cao năng suất làm việc của người đi làm trong thời buổi công nghệ ngày nay.</p>
+                    
+                    <p>Nếu bạn dùng Revit thông thường với kỹ năng xử lý dữ liệu thuần thục thì ít nhất sẽ mất 30 phút. Tuy nhiên, với Python, tất cả những thao tác cố định lặp đi lặp lại này sẽ được Revit tự động thực hiện trong vòng vài giây. Nếu đây là một chuỗi các thao tác hàng tháng bạn phải làm thì một năm bạn đã tiết kiệm được ít nhất 5 tiếng cho công việc của bạn.</p>
+                    
+                    <p>Lập trình Revit API là bộ môn kén học viên, rất ít nơi giảng dạy. Khó mở lớp dạy offline vì số lượng học viên rất ít.</p>
+                    
+                    <p>Hầu hết Revit API các lập trình viên đang đang ưu thích dùng ngôn ngữ C# để lập trình, nhưng xu hướng này đang dần thay đổi do sự phát triển mạnh mẽ của ngôn ngữ python mang lại (Bạn có thể hỏi google thêm về thông tin này).</p>
+                    
+                    <p>Có thể nói nếu bạn đang bắt đầu học lập trình thì python là một lựa chọn tốt nhất cho bạn và Revit API sẽ là nơi thể hiện khả năng lập trình python của bạn.</p>
+                    
+                    <p>Khóa học Python Siêu Nhanh 22+ được đánh giá ở mức độ trung bình phù hợp với các học viên 22 tuổi trở lên và có mong muốn thực hiện bước nhảy trong công việc (Tăng hiệu quả công việc, đổi mới công việc sang lĩnh vực lập trình).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Content Section -->
+    <section class="course-content">
+        <div class="container">
+            <div class="info-card">
+                <h2 class="section-title">CƠ HỘI KHI SAU KHI THAM GIA KHÓA HỌC</h2>
+                
+                <div class="content-section">
+                    <ul class="techniques-list">
+                        <li>Các công ty (Từ các công ty nhỏ tới công ty lớn) đều có nhu cầu lập trình tự động trong Revit dùng python.</li>
+                        <li>Bạn dễ dàng kiếm được công việc như ý muốn nếu bạn có kiến thức lập trình (Lập trình là điểm cộng cho bạn đến các nhà tuyển dụng).</li>
+                        <li>Nhu cầu tuyển dụng lớn, với mức lương cao, nhất là khi bạn có kiến thức về Python.</li>
+                        <li>Bạn dễ dàng có được các công việc ngoài giờ với Python để tăng nguồn thu nhập (Không chỉ dừng ở các công việc Python Revit API).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info-card" style="margin-top: 50px;">
+                <h2 class="section-title">QUYỀN LỢI SAU KHI THAM GIA KHOÁ HỌC</h2>
+                
+                <div class="content-section">
+                    <ul class="techniques-list">
+                        <li>Hỗ trợ 24/7 trọn đời.</li>
+                        <li>Hỗ trợ qua zalo, face, stream video, Teamviewer.</li>
+                        <li>Hỗ trợ việc làm sau khóa học.</li>
+                        <li>Cam kết làm được sau khóa học.</li>
+                        <li>Tiết kiệm chi phí, thời gian.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info-card" style="margin-top: 50px;">
+                <h2 class="section-title">BẠN NHẬN ĐƯỢC GÌ Ở KHOÁ HỌC</h2>
+                
+                <div class="content-section">
+                    <ul class="techniques-list">
+                        <li>Dễ dàng viết được các add-in trong revit một cách dễ dàng, giải quyết công việc một cách nhanh chóng hiệu quả (Tự động tạo lưới trục, vẽ hội trường tự động, đặt tên hàng loạt type name, đổi màu toàn bộ dự án…).</li>
+                        <li>Được hướng dẫn với những dự án thực tế, bạn có thể sử các add-in ngay vào công việc.</li>
+                        <li>Kiến thức python, có thể dùng ngôn ngữ python để viết các phần mềm theo ý tưởng của riêng bạn (Tất cả điều có thể lập trình được bằng ngôn ngữ python).</li>
+                        <li>Bổ sung kiến thức Revit, qua đó hiểu sâu hơn về Revit.</li>
+                        <li>Tăng khả năng tư duy logic.</li>
+                        <li>Có ngay việc làm ngoài giờ với Pyan khi hoàn thành một phần khoá học (I.3).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info-card" style="margin-top: 50px;">
+                <h2 class="section-title">MỘT SỐ KỸ NĂNG ĐỂ HOÀN THÀNH KHÓA HỌC</h2>
+                
+                <div class="content-section">
+                    <ul class="techniques-list">
+                        <li>Kỹ năng copy (Giáo viên là google, copy paste code tham khảo về ứng dụng đang viết).</li>
+                        <li>Ăn ngủ cùng lập trình.</li>
+                        <li>Hỏi mentor (Người có kinh nghiệm lập trình hơn hoặc người hướng dẫn khóa học) bất kể thời gian, địa điểm hay người đó là ai?</li>
+                        <li>Đã học lập trình thì kỹ năng tự học không thể thiếu (Khóa học này rèn cho bạn khả năng đó với điều kiện bạn phải kiên trì không bỏ cuộc).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info-card" style="margin-top: 50px;">
+                <h2 class="section-title">HỌC VIÊN SAU KHI THAM GIA KHÓA HỌC SẼ HOÀN TOÀN TỰ TIN:</h2>
+                
+                <div class="content-section">
+                    <ul class="techniques-list">
+                        <li>Tự động hoá các thao tác nhàm chán, lặp đi lặp lại trong Revit giúp công việc hiệu quả, nhanh chóng, chính xác.</li>
+                        <li>Nhận mức lương cao x2 lần khi bạn chưa tham gia khóa học (Ví dụ bạn đang có mức lương 15 triệu/ tháng, sau khi hoàn thành khóa học bạn có thể deal mức lương lên 30 triệu với sếp của mình).</li>
+                        <li>Bạn hoàn toàn tự tin với kiến thức python cũng như Revit của mình và có thể nhận các dự án ngoài để làm (Có thể là các dự án về lập trình python, không nhất thiết phải là Python Revit API).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="warning-box" style="margin-top: 40px;">
+                <h3>PHƯƠNG CHÂM KHÓA HỌC: Thành chuyên gia hoặc dừng sớm dành thời gian tìm hiểu cái khác.</h3>
+            </div>
+
+            <div class="info-card" style="margin-top: 50px;">
+                <h2 class="section-title">ĐỂ THAM GIA KHÓA HỌC BẠN CẦN</h2>
+                
+                <div class="content-section">
+                    <ul class="techniques-list">
+                        <li>Chương trình dành cho tất cả mọi người, không đòi hỏi phải biết lập trình, chỉ cần biết sử dụng revit cơ bản.</li>
+                        <li>Có khả năng tự học và tự nghiên cứu.</li>
+                        <li>Đặc biệt là kiên trì không bỏ cuộc.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2 class="section-title" style="margin-top: 50px;">CÁCH THỨC HỌC</h2>
+            
+            <div class="content-section">
+                <p><i class="fas fa-play-circle"></i> Các bài học tại bắt đầu chương bạn nên xem trước khi bắt đầu học.</p>
+                <p><i class="fas fa-random"></i> Các bài học sau không cần theo thứ tự, bạn có thể học video nào bạn cần hoặc thích trước.</p>
+            </div>
+
+            <div class="info-card" style="margin-top: 50px;">
+                <h2 class="section-title">KHÓA HỌC ĐANG HƯỚNG ĐẾN NHỮNG BẠN:</h2>
+                
+                <div class="content-section">
+                    <ul class="techniques-list">
+                        <li>Người muốn có một trợ lý am hiểu Python để tra cứu khi cần.</li>
+                        <li>Người muốn tự động các thao tác lặp đi lặp lại trên revit, cái mà các tool mặc định của revit không hỗ trợ.</li>
+                        <li>Đang làm trong lĩnh vực xây dựng có kiến thức về Revit… chán ghét công việc xử lặp đi lặp lại hàng ngày, muốn tạo ra các tiện ích tăng hiệu quả công việc.</li>
+                        <li>Đang làm kỹ thuật (Không chuyên công nghệ thông tin) đam mê lập trình mong muốn học python làm bước nhảy sang lĩnh vực lập trình.</li>
+                        <li>Bạn có khả năng tự học, muốn học python nhanh, ứng dụng ngay và liền, không thích nghe lý thuyết dài dòng, tràn lan.</li>
+                        <li>Bạn đã lớn tuổi nhưng chưa tìm được công việc đam mê để phát triển bản thân, muốn thử sức với lĩnh vực lập trình.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Content Section -->
+    <section class="course-content">
+        <div class="container">
+            <div class="course-content-box">
+                <h2 class="section-title">NỘI DUNG KHOÁ HỌC</h2>
+                
+                <div class="content-section">
+                    <h3 class="content-section-title">Bước Đầu Cài Đặt</h3>
+                    <ul class="content-list">
+                        <li>01. Cài Đặt Visual Studio Code Và Pyrevit</li>
+                        <li>02. Cài Đặt Revit Lookup</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-section-title">Buổi 1 (Tuần 1)</h3>
+                    <ul class="content-list">
+                        <li>01. Giảng Viên Là Ai ? (09:15)</li>
+                        <li>02. 3 Lời Khuyên Để Học Lập Trình Nhanh Dành Cho Dân Tay Ngang (03:06)</li>
+                        <li>03. Pick Đối Tượng Trên màn Hình (19:18)</li>
+                        <li>04. Khai Báo Biến (05:46)</li>
+                        <li>05. Sử Dụng Lênh Print Để Học Python Và Hiểu Revit API (02:47)</li>
+                        <li>06. Truy Xuất Tên Của Category Chúng Ta Pick Chọn trên Màn Hinh (07:45)</li>
+                        <li>07. Truy Xuất Tên Của Family, Type, ID, Category (12:16)</li>
+                        <li>08. Hiểu Về Import Module Trong Revit API (02:31)</li>
+                        <li>09. Tại Sao Phải Truy Xuất Thông Tin Đối Tượng (02:57)</li>
+                        <li>00. Video Quay Lại Buổi 1_ (Video Full)</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-section-title">Buổi 2 (Tuần 1)</h3>
+                    <ul class="content-list">
+                        <li>01. Bắt đầu Buổi Học Thứ 2 (04:36)</li>
+                        <li>02. Làm Sao Để Biết Thông Tin Về Thư Viện Để Import (03:31)</li>
+                        <li>03. Hiểu Về Id Và Hướng Dẫn Sử Dụng Vlookup (08:33)</li>
+                        <li>04. Phân Loại Đối Tượng (Theo Category, Family, Symbol, Instance) (14:32)</li>
+                        <li>05. Kiểu Của Đối Tượng (Instance) (22:02)</li>
+                        <li>06. Kiểu Của Symbol (20:54)</li>
+                        <li>07. Thực Hành Đếm Window Dùng Bộ Lọc (20:38)</li>
+                        <li>00. Video Quay Lại Buổi 2 (Video Full)</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-section-title">Bài Tập Tuần 1</h3>
+                    <ul class="content-list">
+                        <li>Bài Tập 1</li>
+                        <li>Bài Tập 2</li>
+                        <li>Bài Tập 3</li>
+                        <li>Bài Kiểm Tra Tuần 1 (PyRevit)</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-section-title">Buổi 3 (Tuần 2)</h3>
+                    <ul class="content-list">
+                        <li>01. Bắt Đầu Buổi Học Thứ 3 (01:06)</li>
+                        <li>02. Toán Tử Số Học (26:43)</li>
+                        <li>03. Hướng Dẫn Làm Bài Tập 1 (20:28)</li>
+                        <li>04. Sử Dụng Vòng Lặp For… In (22:39)</li>
+                        <li>06. Ứng Dung For..in Trong Revit API (23:39)</li>
+                        <li>07. Phần Hỏi Đáp Thắc Mắc Học Viên (10:12)</li>
+                        <li>00. Video Quay Lại Buổi 3_ Khóa 03</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-section-title">Buổi 4 (Tuần 2)</h3>
+                    <ul class="content-list">
+                        <li>01. Bắt Đầu Buổi 4 (00:43)</li>
+                        <li>02. Giải Bài Tập 2 Và Phân Lớp Kế Thừa (20:58)</li>
+                        <li>03. Mệnh Đề If, Else, Eif (12:38)</li>
+                        <li>04. Bài Tập Thực Hành If Else Trong Revit API (07:49)</li>
+                        <li>06. Làm Việc Với List (15:17)</li>
+                        <li>07. Ví Dụ Về List Trong Revit API (06:53)</li>
+                        <li>00. Video Quay Lại Buổi 4_ Khóa 03</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-section-title">Bài Tập Tuần 2</h3>
+                    <ul class="content-list">
+                        <li>Bài Tập 1</li>
+                        <li>Bài Kiểm Tra Tuần 2 (PyRevit)</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-section-title">Buổi 5 (Tuần 3)</h3>
+                    <ul class="content-list">
+                        <li>01. Bắt Đầu Buổi Học Thứ 5</li>
+                        <li>02. Bài Toán Tính Tổng Trong Python</li>
+                        <li>03. Học Chậm Tiêu Và Kết Quả</li>
+                        <li>04. Thực Hành Filter Đối Tượng Có Điều Kiện P1</li>
+                        <li>05. Thực Hành Filter Đối Tượng Có Điều Kiện P2</li>
+                        <li>07. Hỏi Đáp Lọc Filter Theo Element Type</li>
+                        <li>00. Video Quay Lại Buổi 5_ Khóa K03</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-section-title">Buổi 6 (Tuần 3)</h3>
+                    <ul class="content-list">
+                        <li>01. Bắt Đầu Buổi Học Thứ 6 (00:29)</li>
+                        <li>02. Lấy Instance Parameter Và Chuyển Đổi Đơn Vị Trong Revit API (26:12)</li>
+                        <li>03. Lấy Type Parameter (03:49)</li>
+                        <li>04. Gán Gián Trị Parameter Và Chuyển Đổi Đơn Vị Trong Revit API, Translation (15:33)</li>
+                        <li>05. Gán Parameter Giá Trị Là Một Chuỗi (02:03)</li>
+                        <li>06. Hỏi Về Translation (00:22)</li>
+                        <li>07. Lọc Đối Tượng Tường Theo Level (16:10)</li>
+                        <li>08. Sử Dụng DisplayUnitType Bị Lỗi Revit 2022 (21:22)</li>
+                        <li>00. Video Quay Lại Buổi 6_ Khóa K03</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-section-title">Bài Tập Tuần 3</h3>
+                    <ul class="content-list">
+                        <li>Bài Tập 1</li>
+                        <li>Bài Kiểm Tra Tuần 3 (PyRevit)</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-section-title">Buổi 7 (Tuần 4)</h3>
+                    <ul class="content-list">
+                        <li>01. Bắt Đầu Buổi Học Thứ 7 (02:07)</li>
+                        <li>02. Thư Viện PyRevit Và Biến Môi Trường (07:06)</li>
+                        <li>03. Hàm Trong Python (13:22)</li>
+                        <li>04. Tạo Module Đơn Giản Python (06:51)</li>
+                        <li>05A. Thực Hành Sử Dụng Hàm Trong Revit API P1 (06:13)</li>
+                        <li>05B. Thực Hành Sử Dụng Hàm Trong Revit API P2 (01:29)</li>
+                        <li>06. Tạo Module Trong Revit API (03:16)</li>
+                        <li>07. Thống Kê Tường Nhưng bỏ Tường Trong (08:49)</li>
+                        <li>08. Dùng Kiểu IList Trong Revit API (02:41)</li>
+                        <li>09. Lấy Giá Trị Ngẫu Nhiên Trong List (02:46)</li>
+                        <li>00. Video Quay Lại Buổi 7_ Khóa K03</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-section-title">Buổi 8 (Tuần 4): Chuyển Đổi C# Đến Python</h3>
+                    <ul class="content-list">
+                        <li>01. Bắt Đầu Buổi Học Thứ 8 (20:43)</li>
+                        <li>02. Chuyển Đổi C# Đến Python (Line) (07:30)</li>
+                        <li>03. Chuyển Đổi Từ C# sang Python (NewFamilyInstance ) P1 (13:17)</li>
+                        <li>04. Chuyển Đổi Từ C# sang Python (NewFamilyInstance ) P2 (02:20)</li>
+                        <li>05. Phần Hỏi Đáp (12:03)</li>
+                        <li>00. Video Quay Lại Buổi 8_ Khóa K03</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-section-title">Buổi 9 : Lập Trình Tạo Giao Diện WPF Trong Pyrevit</h3>
+                    <ul class="content-list">
+                        <li>01. Cài Đặt Visual Studio (03:51)</li>
+                        <li>02. Lập Trình WPF Để Tạo Giao Diện Tương Tác Với Revit (23:05)</li>
+                        <li>03. Lập Trình WPF Để Tạo Giao Diện Tương Tác Với Revit P1 (05:33)</li>
+                        <li>04. Lập Trình WPF Để Tạo Giao Diện Tương Tác Với Revit P2 (12:44)</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-section-title">Bài Tập Cuối Khóa</h3>
+                    <ul class="content-list">
+                        <li>Bài Tập 1</li>
+                        <li>Bài Kiểm Tra Tuần 4 (PyRevit)</li>
+                    </ul>
+                </div>
+
+                <div class="content-section content-section-part2">
+                    <h3 class="content-section-title">PHẦN 2: THƯ VIỆN BÀI GIẢNG (HỌC VIÊN HỌC KHI LÀM DỰ ÁN THỰC TẾ)</h3>
+                    
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I.1 Bắt Đầu với Python Revit</h4>
+                        <ul class="content-list">
+                            <li>00. Tài Liệu Về Python Và Revit API</li>
+                            <li>01. Cài Đặt Pyrevit (01:24)</li>
+                            <li>02. Tạo Plugin Sử Dụng Pyrevit (02:23)</li>
+                            <li>03. Chọn Trình Chỉnh Sửa Cho Python (02:19)</li>
+                            <li>04. Cài Đặt Python Và Visual Studio Code (02:38)</li>
+                            <li>05. Một Số Lỗi Khi Cài Đặt Python ( Nếu Cài Đặt Python Của Học Viên Gặp Trục Trặc) (04:02)</li>
+                            <li>06. Cài Đặt Và Sử Dụng RevitLookup (Giới Thiệu Bổ Sung, Học Viên Mới Chưa Cần Sử Dụng) (02:01)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I.2 Làm Việc Với Revit Element</h4>
+                        <ul class="content-list">
+                            <li>01. Lấy thông Tin Đối tượng P1 (04:06)</li>
+                            <li>02. Lấy thông Tin Đối tượng P2 (02:52)</li>
+                            <li>03. Đếm Đối Tượng Trong Project P1 (01:50)</li>
+                            <li>04. Đếm Đối Tượng Trong Project P2 (01:20)</li>
+                            <li>05. Phân Loại Đối Tượng (02:58)</li>
+                            <li>06. Inheritance Hierarchy (Hệ Thống Phân Cấp Kế Thừa) (02:22)</li>
+                            <li>07. Lấy Family Instance Từ Reference (02:12)</li>
+                            <li>08. Tính Thể Tích Của Tường Trong Project (02:22)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I.3 Hiệu Chỉnh Đối Tượng</h4>
+                        <ul class="content-list">
+                            <li>01. Đặt Đối Tượng Vào Project (02:58)</li>
+                            <li>02. Đặt Đối tượng Line Vào dự án (03:14)</li>
+                            <li>02A. Đặt Đối tượng Line Vào dự án (Xử Lý Lỗi Không Định Nghĩa symid) (02:15)</li>
+                            <li>03. Đặt Wall Vào Project Chỉ Định Các Tham Số Height, Level, Offset (Tiếp Bài Trước) (02:53)</li>
+                            <li>04. Tạo Floor Bao Quanh Tường P1 (01:47)</li>
+                            <li>05. Tạo Floor Bao Quanh Tường P2 (02:58)</li>
+                            <li>06. Lấy Thông Tin của Parameter (02:59)</li>
+                            <li>07. Gán Parameter Cho Đối Tượng (02:48)</li>
+                            <li>08. Lấy type parameter của đối tượng (02:41)</li>
+                            <li>09. Di Chuyển Đối Tượng P1 (01:51)</li>
+                            <li>10. Di Chuyển Đối Tượng P2 (01:03)</li>
+                            <li>10A. Di chuyển đối tượng Thuộc LocationPoint Hoặc CurvePoint (01:26)</li>
+                            <li>11. Copy Đối Tượng (01:12)</li>
+                            <li>12. Xoay Đối Tượng Chọn Trên Project (02:53)</li>
+                            <li>13. Xoá Element (01:45)</li>
+                            <li>14. Duplicate Của Family Type (02:00)</li>
+                            <li>15. Gán Giá Trị Parameter Cho Type Của Family (01:41)</li>
+                            <li>16. Đưa Dầm Vào Project (02:38)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I.4 Cơ Bản Về Python Revit</h4>
+                        <ul class="content-list">
+                            <li>01. Biến (02:31)</li>
+                            <li>02. Biến_Thực hành biến trong pyrevit (01:03)</li>
+                            <li>03. Kiểu Số (04:00)</li>
+                            <li>04. Kiểu Số_Đếm Hai Đối Tượng Trong Project (02:15)</li>
+                            <li>05. Kiểu Chuỗi (01:55)</li>
+                            <li>06. Kiểu Chuỗi_Dupicate Type Name (01:46)</li>
+                            <li>07. List (02:01)</li>
+                            <li>08. List_ Đổi Type Family Hiện Hành (02:56)</li>
+                            <li>09. Vòng Lặp For (01:14)</li>
+                            <li>10. Vòng Lặp For_ Hiện Thị Danh Sách Tên Của Các Type Family (01:53)</li>
+                            <li>11. Sử Dụng If Else (02:40)</li>
+                            <li>12. If Else_ Tùy Chọn Đối Tượng Đặt Vào Project Theo Family (03:00)</li>
+                            <li>13. Toán tử Logical (01:43)</li>
+                            <li>14. Toán tử Logical_Đặt Đối Tượng Vào Project (01:11)</li>
+                            <li>15. Sử Dụng Hàm (02:55)</li>
+                            <li>16. Sử Dụng Hàm_Gán Parameter (02:14)</li>
+                            <li>17. Import Module Trong Python Revit (02:20)</li>
+                            <li>18. Vòng Lặp While Loop (02:51)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I.5. Chuyển Đổi C# Đến Python Trong Revit API (Trường Hợp Bạn Chưa Biết Gì Về C# )</h4>
+                        <ul class="content-list">
+                            <li>01. Cách Chuyển Đổi Từ C# Đến Python (Ví Dụ Điển Hình) (02:50)</li>
+                            <li>02. Chuyển Đổi Tất Cả Ví Dụ Từ C# Về Python Trong Một Phút (02:21)</li>
+                            <li>03. Thông Tin Đối Tượng Thuộc Location Nào ?</li>
+                            <li>04. Đặt Door Vào Wall (03:20)</li>
+                            <li>05. Đặt Cột Vào Project (02:51)</li>
+                            <li>06. Cập Nhật Lại Giá Trị Parameter Của Sheet (04:07)</li>
+                            <li>07. Vẽ Wall (Ví Dụ Tạo Wall Từ https://www.revitapidocs.com) (02:33)</li>
+                            <li>08. Sửa Lỗi Symbol Not Active (01:44)</li>
+                            <li>09. Vẽ Biên Dạng Arc P1 (02:38)</li>
+                            <li>10. Vẽ Biên Dạng Arc P2 (05:07)</li>
+                            <li>11. Sử Dụng GetDefaultFamilyTypeId Method (06:17)</li>
+                            <li>12. Sử Dụng LogicalOrFilter Class (05:34)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I.6 Tự Động Tạo Đối Tượng</h4>
+                        <ul class="content-list">
+                            <li>01. Tạo Trục Đơn Giản Từ 2 Điểm (01:49)</li>
+                            <li>02. Sử Dụng Hàm_Tạo Trục Đơn Giản (02:00)</li>
+                            <li>03. Tạo Level (01:56)</li>
+                            <li>04. Tạo Level_ Đổi Đơn Vị Cao Độ (01:43)</li>
+                            <li>05. Sử Dụng Hàm_ Tạo Đối Tượng (02:39)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I.7 Làm Việc Với Tag</h4>
+                        <ul class="content-list">
+                            <li>01. Tag Tự Động Tất Cả Room P1 (03:55)</li>
+                            <li>02. Tag Tự Động Tất Cả Room (Giải Thích Thêm) P2 (01:56)</li>
+                            <li>03. Tag Tự Động Tất Cả Room (Chỉ Tag những Room Chưa Tag) P3 (03:15)</li>
+                            <li>04. Tag Tự Động Tất Cả Room (Tuỳ Chọn Loại Tag + Giao Diện Với RPW) P4 (01:52)</li>
+                            <li>05. Tag Tự Động Tất Cả Room (Giải Thích Cách Tạo Giao Diện Với RPW) P5 (02:07)</li>
+                            <li>06. Tag Tất Cả Room (03:06)</li>
+                            <li>07. Thiết Kế Giao Diện UI (Chọn Leader Tag Door) (02:39)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I.8 Làm Việc Với Sheet</h4>
+                        <ul class="content-list">
+                            <li>01. Tạo Sheet (03:00)</li>
+                            <li>02. Xử Lý Lỗi Sheet Number Khi Tạo Sheet P1 (02:51)</li>
+                            <li>03. Xử Lý Lỗi Sheet Number Khi Tạo Sheet P2 (02:51)</li>
+                            <li>04. Tạo Sheet_Làm Việc Với Sheet Name (Đổi Tên Sheet Từ Danh Sách Nhập Vào Hoặc Kết Hợp Sheet Number) (03:05)</li>
+                            <li>05. Tìm Và Thay Thế Tên Của Sheet Name P1 (02:21)</li>
+                            <li>06. Thay Đổi Parameter Của Sheet (04:07)</li>
+                            <li>07. Thay Đổi Title Viewports Trong Sheet (03:16)</li>
+                            <li>08. Thay Đổi Title Viewports Trong Sheet (RPW) (02:27)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I.9 Ribbon Control</h4>
+                        <ul class="content-list">
+                            <li>01. Tạo Radio Buttons (01:35)</li>
+                            <li>02. Tạo Drop Down Button (01:03)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I.10 Làm Việc Với Room</h4>
+                        <ul class="content-list">
+                            <li>01. Hiện Thông Tin Room Có Giá Trị Diện Tích Nhỏ Hơn Giá Trị Nhập Vào (02:40)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I.11. Thay Đổi Màu Đối Tượng</h4>
+                        <ul class="content-list">
+                            <li>01. Đổi Màu Đối Tượng Được Pick Trên Project (Màu Đã Được Chỉ Định) (04:03)</li>
+                            <li>02. Đổi Màu Đối Tượng Được Pick Trên Project (Type Cùng Tên Sẽ Cùng Màu)</li>
+                            <li>03. Đổi Màu Đối Tượng Được Pick Trên Project (Chọn Màu Ngẫu Nhiên) (01:48)</li>
+                            <li>04. Đổi Màu Đối Tượng Được Pick Trên Project (Nhập Theo Chỉ Số Màu) (03:47)</li>
+                            <li>05. Đổi Màu Đối Tượng Được Pick Trên Project (Đổi Màu Theo Type) (03:36)</li>
+                            <li>06. Can Thiệp Vào Excel (02:10)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I.12: Tạo Giao Diện Với RPW</h4>
+                        <ul class="content-list">
+                            <li>01. Hướng Dẫn Cơ Bản Về Tạo Giao Diện RPW P1 (01:49)</li>
+                            <li>02. Hướng Dẫn Cơ Bản Về Tạo Giao Diện RPW P2 (02:32)</li>
+                            <li>03. Hướng Dẫn Cơ Bản Về Tạo Giao Diện RPW P3 (01:41)</li>
+                            <li>04. Hướng Dẫn Cơ Bản Về Tạo Giao Diện RPW P4 (01:40)</li>
+                            <li>05. Hướng Dẫn Cơ Bản Về Tạo Giao Diện RPW P5 (Sử Dụng Os Dialog) (01:46)</li>
+                            <li>06. Hướng Dẫn Cơ Bản Về Tạo Giao Diện RPW P6 (Sử Dụng FlexForm) (02:22)</li>
+                            <li>07. Hướng Dẫn Cơ Bản Về Tạo Giao Diện RPW P7 (Sử Dụng Selection) (01:40)</li>
+                            <li>08. Hướng Dẫn Cơ Bản Về Tạo Giao Diện RPW P8 (Sử Dụng Selection Tiếp Tục) (01:37)</li>
+                            <li>09. Hướng Dẫn Cơ Bản Về Tạo Giao Diện RPW P9 (Sử Dụng Selection, Pick Đối Tượng) (01:50)</li>
+                            <li>10. Hướng Dẫn Cơ Bản Về Tạo Giao Diện RPW P10 (02:46)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I.13. Làm Việc Với Revit Link</h4>
+                        <ul class="content-list">
+                            <li>01. Bật Hoặc Mở Link Fevit (02:44)</li>
+                            <li>02. Ẩn Hiện Revit Link Theo Tên File Được Chỉ Định (03:27)</li>
+                            <li>03. Tạo Giao Diện Chọn Link Revit Để Ẩn Hoặc Hiện (02:03)</li>
+                            <li>04. Tạo Giao Diện Check Box Tùy Chỉnh Revit Link Ẩn Hiện (Có Thể Chọn Nhiều File) (03:17)</li>
+                            <li>05. Tạo Giao Diện UI (Dùng Alert Trong rpw) Cảnh Báo Khi Không Có Revit Link Nào Được Chọn (02:22)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I. 14. Làm Việc Với CAD File</h4>
+                        <ul class="content-list">
+                            <li>01. Mở Link Cad (04:08)</li>
+                            <li>02. Mở Link Cad (Giải Thích) (02:31)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">I. 15. Chọn Nhiều Đối Tượng</h4>
+                        <ul class="content-list">
+                            <li>01. Pick Chọn Nhiều Đối Tượng Trên Màn Hình (02:22)</li>
+                            <li>02. Pick Chọn Và Di Chuyển Nhiều Đối Tượng (02:16)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">II.0 BẮT ĐẦU CHƯƠNG 2</h4>
+                        <ul class="content-list">
+                            <li>0.1 Cài đặt thư viện pyrevitnvn (Install library pyrevitnvn) bài 1</li>
+                            <li>0.2 Cài đặt thư viện pyrevitnvn (Install library pyrevitnvn) bài 2 (05:03)</li>
+                            <li>0.3 Các thư viện sử dụng cho Pyrevit (01:37)</li>
+                            <li>0.4 Hướng dẫn cài đặt môi trường cho Python (environment variable) bài 1</li>
+                            <li>0.5 Hướng dẫn cài đặt môi trường cho Python (environment variable) Bài 2</li>
+                            <li>0.6 Làm thế nào sử dụng thư viện trong pyrevit</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">II.1 Tạo lưới trục từ dữ liệu đầu vào excel</h4>
+                        <ul class="content-list">
+                            <li>1.0 Tạo gird siêu nhanh từ dữ liệu excel (02:41)</li>
+                            <li>1.1 Hiểu về các thông số nhập vào từ excel (02:30)</li>
+                            <li>1.2 Lấy đối tượng sheet sử dụng thư viện xlrd (03:51)</li>
+                            <li>1.3 Lấy đối tượng cell sử dụng thư viện xlrd (04:16)</li>
+                            <li>1.4 Vẽ trục sử dụng hàm dgird</li>
+                            <li>1.5 Vẽ trục sử dụng hàm d2gird</li>
+                            <li>1.6 Xóa hoặc thêm giao diện trong add-in</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">II.2. Di chuyển đến center của một đối tượng khác</h4>
+                        <ul class="content-list">
+                            <li>2.0 Di chuyển đến center của một đối tượng khác</li>
+                            <li>2.1 Lấy location của đối tượng (02:44)</li>
+                            <li>2.2 Di chuyển đến center của một đối tượng khác (01:46)</li>
+                            <li>2.3 Các thông tin cần lưu ý và cách kiểm tra (01:37)</li>
+                            <li>2.4 Cách bắt lỗi khi người sử dụng chọn không đúng đối tượng (02:21)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">II.3 Đổi tên Type của family</h4>
+                        <ul class="content-list">
+                            <li>3.0 Đổi tên type của family</li>
+                            <li>3.1 Hiểu về các thông số nhập vào excel đầu vào</li>
+                            <li>3.2 Tạo tên Type Name từ thông tin từ excel (03:57)</li>
+                            <li>3.3 Thay đổi type name bài 1 (02:49)</li>
+                            <li>3.4 Thay đổi type name bài 2 (05:34)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">II.4 Tự động vẽ hội trường full nột thất</h4>
+                        <ul class="content-list">
+                            <li>4.0 Tự động vẽ hội trường full nột thất</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">II.5 Tự động tạo callout và đặt tên bằng cách chọn các đối tượng trên project</h4>
+                        <ul class="content-list">
+                            <li>6.0 Tự động tạo callout và đặt tên bằng cách chọn các đối tượng (03:38)</li>
+                            <li>6.1 Nhập thông tin đầu vào trên giao diện (02:35)</li>
+                            <li>6.2 Giá trị cài đặt cho add-in này (01:55)</li>
+                            <li>6.3_Tạo Callout và đổi tên view (05:14)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">II.6 Thay đổi màu cho toàn bộ đối tượng trên project</h4>
+                        <ul class="content-list">
+                            <li>7.0 Tự động sắp xếp lại sheet number (02:41)</li>
+                            <li>7.1 Lấy danh sách chỉ số màu từ excel đầu vào (04:19)</li>
+                            <li>7.2 Tạo dict từ ID của ElementType và FamilyInstance (03:09)</li>
+                            <li>7.3 Tạo giao diện cho add-in này (01:24)</li>
+                            <li>7.4_Set màu cho đối tương (05:14)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="sub-section-title">II.7 Tự Động Sắp Xếp Lại Sheet Number</h4>
+                        <ul class="content-list">
+                            <li>8.0 Tự động sắp xếp lại sheet number (02:41)</li>
+                            <li>8.1 Tạo Plugin từ pyrevit (01:13)</li>
+                            <li>8.2 Thêm nhanh kí tự vào sheet number hiện tại (02:01)</li>
+                            <li>8.3 Cách sử dụng regular expression (để áp dụng cho bài sau) (03:16)</li>
+                            <li>8.4 Đặt lại tên number sheet cho project bài 1 (03:16)</li>
+                            <li>8.5 Đặt lại tên number sheet cho project bài 2 (03:06)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Method Section -->
+    <section class="learning-method">
+        <div class="container">
+            <div class="learning-method-box">
+                <h2 class="section-title">Cách Thức Học</h2>
+                <h3 class="sub-title">Cứ ứng dụng vào công việc đi, vướng thì gỡ</h3>
+                
+                <div class="learning-method-content">
+                    <p>Anh em chúng ta hầu hết đều là người đi làm bận rộn, dân tay ngang (những người chưa có kiến thức về công nghệ thông tin), nên cách học trực tiếp không còn phù hợp nữa vì học như vậy rất lan man, học xong cũng không biết ứng dụng để làm cái gì nhưng anh em lại muốn kiến thức học được phải ứng dụng ngay lập tức vào công việc để có hứng thú học tập hơn.</p>
+                    
+                    <p>Nên học theo video là hợp lý nhất (rảnh lúc nào, cày lúc đó), trong khóa học sẽ hướng dẫn ae các kiến thức cơ bản về python cũng như kỹ năng tự học để anh có thể áp dụng ngay lập tức vào làm dự án của chính mình, vướng đâu gỡ đó, bên mình hỗ trợ anh em liên tục qua zalo và zoom, nên học rất nhanh (đã chứng minh với hàng ngàn học viên trong 3 năm qua), chỉ cần một thời gian ngắn là anh em đã viết được ứng dụng vào công việc rồi, anh em sẽ nghiền lập trình như chơi game vậy, vì thấy được ứng dụng hay ho của lập trình vào công việc hiện tại.</p>
+                </div>
+            </div>
+
+            <div class="testimonials-section">
+                <div class="testimonials-box">
+                    <h2 class="section-title">CẢM NHẬN CỦA HỌC VIÊN</h2>
+                    
+                    <div class="testimonials-list">
+                        <div class="testimonial-item">
+                            <div class="testimonial-header">
+                                <i class="fas fa-user-circle"></i>
+                                <div class="testimonial-name">
+                                    <strong>Bạn Hoàng Dương</strong>
+                                    <span>Kỹ sư xây dựng</span>
+                                </div>
+                            </div>
+                            <p>Mình đi làm chẳng còn thời gian đâu mà đi nghe lý thuyết tràn lan như thời học đại học hay trung tâm dạy về python nữa, học xong mình không biết ứng dụng nó để làm gì. Nhưng với khóa học này làm mình hứng thú với việc lập trình hơn. Mình cứ làm xong add-in trước sau đó mình từ từ tìm hiểu hoặc mình không tìm hiểu luôn, mình làm một add-in khác và cố gắng kế thừa từ code nguồn của khóa học, từ từ rồi mình hiểu sâu chuyên môn hơn.</p>
+                        </div>
+                        
+                        <div class="testimonial-item">
+                            <div class="testimonial-header">
+                                <i class="fas fa-user-circle"></i>
+                                <div class="testimonial-name">
+                                    <strong>Bạn Trần Hằng</strong>
+                                    <span>Kỹ sư thiết kế xây dựng</span>
+                                </div>
+                            </div>
+                            <p>Mình biết sử dụng revit và giờ mình muốn phát triển thêm về lập trình để tăng hiệu quả công việc, tham khảo mấy anh chị đi trước họ khuyên nếu học lập trình thì nên chọn python, nhưng trong revit api chủ yếu tài liệu C# hoặc vb.net, python revit api rất ít người dạy. May mắn tìm được khóa học này, mình kết hợp khóa học này và khả năng tự nghiên cứu học hỏi của mình thế là đạt kết quả vượt mong đợi.</p>
+                        </div>
+                        
+                        <div class="testimonial-item">
+                            <div class="testimonial-header">
+                                <i class="fas fa-user-circle"></i>
+                                <div class="testimonial-name">
+                                    <strong>Bạn Hải Hậu</strong>
+                                    <span>Kỹ sư xây dựng</span>
+                                </div>
+                            </div>
+                            <p>Mình làm xây dựng nhưng lại có niềm đam mê bất diệt với lập trình, mình muốn thử sức với lĩnh vực lập trình. Qua tìm hiểu những tiền bối đi trước khuyên mình nếu học thì nên bắt đầu học python, mình đã đến một vài trung tâm để học, nhưng mình cảm thấy chán nản và không theo tới cùng khi học thuần về python, học tràn lan và mình không biết ứng dụng nó để làm gì nữa. Qua tìm hiểu mình biết tới khóa học này, thật là may mắn là mình cũng biết về revit và dựa vào kiến thức revit của mình để học lập trình python. Giờ mình đã rất hài lòng với kiến thức hiện tại của mình về python và mình còn áp dụng kiến thức đó vào việc viết các add-in trong revit nữa.</p>
+                        </div>
+                        
+                        <div class="testimonial-item">
+                            <div class="testimonial-header">
+                                <i class="fas fa-user-circle"></i>
+                                <div class="testimonial-name">
+                                    <strong>Bạn Võ Huy</strong>
+                                    <span>Kiến trúc sư</span>
+                                </div>
+                            </div>
+                            <p>Dù tôi chỉ mới bắt đầu học cơ bản về lập trình nhưng tôi đã có thể bắt tay làm việc với Pyan cũng với lĩnh vực tôi đang học, điều đó là tôi có áp lực cũng như động lực để học. Cảm ơn Pyan nhé. Không có đội ngũ của bạn, tôi không biết sẽ phải học bao lâu cũng như học lại bao nhiều lần để đạt được kiến thức như tôi mong muốn nữa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Instructor Section -->
+            <section class="instructor" id="about">
+                <div class="container">
+                    <div class="instructor-intro-box">
+                        <h2 class="instructor-intro-title">"Tôi Chỉ Mất 3 Tháng Để Thành Thạo Lập Trình Python"</h2>
+                        <p class="instructor-intro-subtitle">Giảng Viên Chính</p>
+                        
+                        <div class="instructor-intro-content">
+                            <p>Tôi biết học lập trình có thể khó, nhưng đừng lo lắng! Tôi ở đây để giúp đỡ. Trong khóa học 8 buổi học này, bạn sẽ học cách tự học lập trình.</p>
+                            
+                            <p>Tôi sẽ chia sẻ với bạn những kỹ năng và kiến thức đã giúp tôi với tư cách là một kỹ sư cơ khí chuyển sang lập trình viên khi tôi đã ngoài 30 tuổi chỉ với thời gian 3 tháng học. Nhưng tất cả những chia sẻ về kỹ năng tự học này có thể giúp ích cho bạn rất nhiều trong quá trình học tập của bạn!</p>
+                            
+                            <div class="instructor-note-box">
+                                <p><strong>Lưu ý rằng:</strong> Đây không chỉ là một lớp học viết code nhàm chán khác, nơi tất cả những gì họ làm là giảng bài về các chủ đề như "Biến" và "Vòng lặp", "Kiểu dữ liệu". Chúng tôi đang vượt xa những gì được dạy trong các lớp học truyền thống bằng cách cùng nhau xây dựng các dự án thực tế. Bằng cách này, chúng tôi đang củng cố các khái niệm đã học trong mỗi bài học đồng thời giúp não của bạn thoát khỏi tình trạng quá tải thông tin.</p>
+                            </div>
+                            
+                            <p>Đều quan trọng đối với học viên lập trình (Đặc biệt là người mới bắt đầu) không chỉ hiểu các khái niệm mới mà còn thực hành chúng theo thời gian cho đến khi chúng trở thành bản chất thứ hai. Bằng cách đó, khi có điều gì đó không mong muốn xảy ra trong quá trình phát triển hoặc gỡ lỗi, bạn sẽ không phải do dự nhiều trước khi bắt đầu hành động vì mọi thứ đã được thực hành từ trước. Và quan trọng nhất – Sau khi hoàn thành những buổi học này – Bạn sẽ có được những kỹ năng quý giá cho phép bạn làm việc trên bất kỳ dự án nào bằng Python cho Excel mà không cần phải nhờ đến sự hỗ trợ hoặc hướng dẫn của bất kỳ ai khác.</p>
+                        </div>
+                    </div>
+                        
+                    <div class="highlight-box">
+                        <div class="instructor-layout">
+                            <div class="instructor-image">
+                                <img src="ALT.png" alt="Anh Lập Trình - Mr. Nhuần">
+                            </div>
+                            <div class="instructor-content">
+                                <p>Tui là Nhuần, người sáng lập <strong style="color: #000; font-weight: 700;">Anh Lập Trình</strong> và <strong style="color: #000; font-weight: 700;">Pyan</strong>, Chuyên gia về: Revit kết Cấu, Revit kiến trúc, Revit nhà thép công nghiệp, Dynamo, Python, Python Excel, Python Revit, VBA Autocad, VBA Excel, Advance Steel</p>
+                                <p>Tốt nghiệp chuyên ngành Cơ Kỹ Thuật, Khoa Khoa Học Ứng Dụng tại trường ĐH Bách Khoa TP.HCM.</p>
+                                <p>Trước 27 tuổi anh làm nhiều ngành nghề khác nhau như: sửa chữa bảo trì thiết bị, điện dân dụng, quản lý dự án, nghiên cứu phát triển bóng đèn, đi công trình...Sau đó anh ứng tuyển vào làm triển khai bản vẽ tại một công ty về xây dựng nhưng công việc cũng không khởi sắc so với công việc cũ.</p>
+                            </div>
+                        </div>
+                        <div class="instructor-bottom-content">
+                            <p>Năm 28 tuổi anh đề xuất công ty cho anh được nghiên cứu phần mềm Revit (để thay thế Autocad), chỉ sau thời gian ngắn (3 tháng) anh đã phụ trách đào tạo Revit cho công ty và bắt đầu giảng dạy Revit ở một số trung tâm tại trường đại học và cũng là bim manager cho một số công ty.</p>
+                            <p>30 tuổi anh bắt đầu bén duyên với lập trình và trở thành chuyên gia về lập trình các Plugin trong phần mềm xây dựng và các phần mềm về xử lý dữ liệu (Dùng ngôn ngữ python) chỉ sau một năm học.</p>
+                            <p>Đã có hơn 100 project lập trình lớn nhỏ anh đã thực hiện.</p>
+                            <p>Đã có hơn 6000+ học viên theo học và nhận được phản hồi tích cực.</p>
+                        </div>
+                    </div>
+
+                    <div class="philosophy-box">
+                        <h3 class="philosophy-title">Phương Châm Giảng Dạy</h3>
+                        <p>"Kiến thức về Python rất rộng, tôi có dạy cả 100 buổi học thì cũng không truyền đạt hết kiến thức về lập trình cho bạn hết được, vì vậy tôi sẽ hướng dẫn bạn những kiến thức cơ bản về Python cũng như hướng dẫn bạn các kỹ năng tự học để bạn có thể tự tìm hiểu và áp dụng linh hoạt kiến thức đó vào project phục vụ chính công việc của bạn, thiếu ở đâu thì bổ sung kiến thức chỗ đó, không cần phải học tràn lan lý thuyết, dễ gây nhàm chán"</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="register">
+        <div class="container">
+            <div class="pricing-card">
+                <form class="registration-form" id="registrationForm">
+                    <h2 class="pricing-title-before-form">Học Phí Ưu Đãi Nếu Đăng Ký Ngay Hôm Nay Anh Em Nhé.</h2>
+                    <p class="pricing-note"><strong>Hành động ngay lập tức để công việc hiện tại của anh em tay ngang như chúng ta đỡ mệt mỏi, nhàm chán hơn. Trì hoãn chỉ làm cho anh em mình có lối sống tèn tèn, mãi mãi ko phát triển được</strong></p>
+                    
+                    <div class="bonuses">
+                        <h3>Quà tặng kèm:</h3>
+                        <div class="bonus-item bonus-1">
+                            <div class="bonus-icon">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                            <div class="bonus-content">
+                                <p>Tặng tài khoản ChatGPT Plus (giá trên website chatgpt là 20$/ tháng), chúng tôi nộp tiền sẵn để bạn sử dụng hoàn toàn miễn phí tài khoản này. (Tặng 6 tháng sử dụng trị giá 2880K)</p>
+                            </div>
+                        </div>
+                        <div class="bonus-item bonus-2">
+                            <div class="bonus-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <div class="bonus-content">
+                                <p>Ebook 12 Nguyên tắc học lập trình cho dân tay ngang: Làm thế nào tôi có thể học python để áp dụng vào công việc chỉ mất một tháng bắt đầu từ Zero.</p>
+                            </div>
+                        </div>
+                        <div class="bonus-item bonus-3">
+                            <div class="bonus-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="bonus-content">
+                                <p>Hướng dẫn viết dự án theo ý tưởng công việc của bạn (Group zalo và Zoom)</p>
+                            </div>
+                        </div>
+                        <div class="bonus-item bonus-4">
+                            <div class="bonus-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="bonus-content">
+                                <p>Được học và hỗ trợ 12 tháng. (zalo và zoom), bạn có thể hỏi các vấn đề ngoài kiến thức bài giảng vẫn hỗ trợ nhiệt tình</p>
+                            </div>
+                        </div>
+                        <div class="bonus-item bonus-certificate">
+                            <div class="bonus-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="bonus-content">
+                                <p><strong>ĐƯỢC CẤP CHỨNG CHỈ SAU KHI HOÀN THÀNH KHÓA HỌC</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="price" style="text-align: center; margin: 30px 0;">
+                        <span class="old-price">7.450.000 VNĐ</span>
+                        <span class="new-price">1.950.000 VNĐ</span>
+                    </div>
+                    
+                    <p class="guarantee-text">✅ Hoàn tiền trong vòng 07 ngày (không hỏi lý do)</p>
+                    
+                    <div class="form-group">
+                        <label for="name">Họ Và Tên</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Nhập Số Điện Thoại *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Đăng Ký Ngay</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <h2>Tự Động Hóa Công Việc Với Python</h2>
+            <h3 class="footer-motto">Cứ ứng dụng vào công việc đi,<br>vướng thì gỡ</h3>
+            <div class="contact-info">
+                <p><strong>Công Ty TNHH Anh Lập Trình</strong></p>
+                <p><strong>Mã số thuế:</strong> 0318822989</p>
+                <p><strong>Điện thoại:</strong> 0914972102</p>
+                <p><strong>Email:</strong> contact@anhlaptrinh.vn</p>
+                <p><strong>Địa chỉ:</strong> Lầu 5: Toà Nhà ST. MORITZ, 1014 Phạm Văn Đồng, P, Thủ Đức, Thành phố Hồ Chí Minh</p>
+            </div>
+            
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <h4>Kết nối với chúng tôi</h4>
+                <div class="social-icons-row">
+                    <a href="https://www.youtube.com/@pyanpython" target="_blank" rel="noopener noreferrer" class="social-link youtube-link">
+                        <span class="social-icon"><i class="fab fa-youtube"></i></span>
+                        <span class="social-text">Anh Lập Trình</span>
+                    </a>
+                    <a href="https://www.facebook.com/tudonghoanocode/" target="_blank" rel="noopener noreferrer" class="social-link facebook-link">
+                        <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+                        <span class="social-text">Anh Lập Trình</span>
+                    </a>
+                    <a href="https://www.facebook.com/pythonchonguoilon/" target="_blank" rel="noopener noreferrer" class="social-link facebook-link">
+                        <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+                        <span class="social-text">Anh Lập Trình - Trợ Lý A.I</span>
+                    </a>
+                    <a href="https://www.facebook.com/PythonVBARevitExcelAutocad/" target="_blank" rel="noopener noreferrer" class="social-link facebook-link">
+                        <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+                        <span class="social-text">Anh Lập Trình - Python</span>
+                    </a>
+                </div>
+            </div>
+            
+            <p class="copyright">&copy; 2024. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- EmailJS Library -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js?v=20251223_140342"></script>
+    <!-- Email Config -->
+    <script src="email-config.js?v=20251223_140342"></script>
+    <!-- n8n Webhook Config -->
+    <script src="n8n-config.js?v=20251223_140342"></script>
+    <script src="script.js?v=20251223_140342"></script>
+</body>
+</html>
+
